@@ -1,5 +1,15 @@
-.App {
-  text-align: center;
+.cardContainer {
+  padding: 10px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 24px;
+  
+}
+.containerAll{
+  display: flex;
+  justify-content: center;
+  background-color: black;
 }
 
 .App-logo {
